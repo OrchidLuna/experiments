@@ -7,7 +7,6 @@ services:
       DISK_SIZE: "32G"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
-#      NETWORK: "slirp"
       # the default 2-core system from github.
     devices:
       - /dev/kvm
