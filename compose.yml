@@ -4,9 +4,10 @@ services:
     container_name: qemu
     environment:
       BOOT: "suse"
-      RAM_SIZE: "max"
-      DISK_SIZE: "max"
-      CPU_CORES: "max"
+      DISK_SIZE: "32G"
+      RAM_SIZE: "4G"
+      CPU_CORES: "2"
+      # the default 2-core system from github.
     devices:
       - /dev/kvm
       - /dev/net/tun
