@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://cdimage.ubuntu.com/xubuntu/releases/24.04.3/release/xubuntu-24.04.3-minimal-amd64.iso"
+      BOOT: "https://repo.almalinux.org/almalinux/10.0/isos/x86_64/AlmaLinux-10.0-x86_64-boot.iso"
       DISK_SIZE: "27G"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
