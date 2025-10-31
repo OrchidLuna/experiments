@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://cdimage.debian.org/debian-cd/13.1.0/amd64/iso-cd/debian-13.1.0-amd64-netinst.iso"
+      BOOT: "https://download.opensuse.id/distribution/leap/16.0/offline/Leap-16.0-online-installer-x86_64-Build171.1.install.iso"
       DISK_SIZE: "21G"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
