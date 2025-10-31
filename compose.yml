@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://old-releases.ubuntu.com/releases/precise/ubuntu-12.04.4-desktop-amd64.iso" # recommended to use a mirror closest to codespace's location.
+      BOOT: "http://ossmirror.mycloud.services/os/linux/ubuntu-releases/14.04.6/ubuntu-14.04.6-desktop-amd64.iso" # recommended to use a mirror closest to codespace's location.
       DISK_SIZE: "21G"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
