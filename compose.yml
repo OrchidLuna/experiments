@@ -3,10 +3,10 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://mirror.sg.gs/ubuntu-old-releases/releases/lubuntu/releases/disco/release/lubuntu-19.04-desktop-amd64.iso"
+      BOOT: "https://mirror.sg.gs/ubuntu-old-releases/releases/kubuntu/10.04/kubuntu-10.04-desktop-amd64.iso"
+      DISK_SIZE: "21G"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
-      # the default 2-core system from github.
     devices:
       - /dev/kvm
       - /dev/net/tun
