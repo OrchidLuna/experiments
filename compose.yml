@@ -3,9 +3,9 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://mirrors.dotsrc.org/lubuntu-cd/24.04.3/release/lubuntu-24.04.3-desktop-amd64.iso"
-      DISK_SIZE: "21G"
-      RAM_SIZE: "4G"
+      BOOT: "https://mirror.sg.gs/almalinux/10.0/isos/x86_64/AlmaLinux-10.0-x86_64-boot.iso"
+      DISK_SIZE: "30G"
+      RAM_SIZE: "6G"
       CPU_CORES: "2"
     devices:
       - /dev/kvm
