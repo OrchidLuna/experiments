@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://mirror.sg.gs/almalinux/10.0/isos/x86_64/AlmaLinux-10.0-x86_64-boot.iso"
+      BOOT: "https://mirror.sg.gs/debian-cd/13.1.0/amd64/iso-cd/debian-13.1.0-amd64-netinst.iso"
       DISK_SIZE: "30G"
       RAM_SIZE: "6G"
       CPU_CORES: "2"
