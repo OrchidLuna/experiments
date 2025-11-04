@@ -3,9 +3,9 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://mirror.sg.gs/debian-cd/13.1.0/amd64/iso-cd/debian-13.1.0-amd64-netinst.iso"
+      BOOT: "arch"
       DISK_SIZE: "30G"
-      RAM_SIZE: "6G"
+      RAM_SIZE: "8G"
       CPU_CORES: "2"
     devices:
       - /dev/kvm
