@@ -2,6 +2,5 @@
   "name": "A Linux Distribution",
   "service": "qemu",
   "forwardPorts": [8006],
-  "dockerComposeFile": "compose.yml",
-  "workspaceFolder": "/workspaces/experiments/linux"
+  "dockerComposeFile": "compose.yml"
 }
