@@ -15,6 +15,6 @@
     "onAutoForward": "ignore"
   }, 
   "dockerComposeFile": "compose.yml",
-  "workspaceFolder": "/workspaces/experiments/windows",
+#  "workspaceFolder": "/workspaces/experiments/windows",
   "initializeCommand": "docker system prune --all --force"
 }
