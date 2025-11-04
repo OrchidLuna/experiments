@@ -1,19 +1,6 @@
 {
   "name": "Windows 10 IoT Enterprise Non-Evaluation",
   "service": "windows",
-  "containerEnv": {
-    "BOOT": "https://dl.bobpony.com/windows/10/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
-  },
   "forwardPorts": [8006],
-  "portsAttributes": {
-    "8006": {
-      "label": "Web",
-      "onAutoForward": "notify"
-    }
-  },
-  "otherPortsAttributes": {
-    "onAutoForward": "ignore"
-  }, 
-  "dockerComposeFile": "compose.yml",
-  "initializeCommand": "docker system prune --all --force"
+  "dockerComposeFile": "compose.yml"
 }
