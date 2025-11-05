@@ -1,5 +1,5 @@
 {
-  "name": "Windows 10 IoT Enterprise Non-Evaluation",
+  "name": "Windows 11 IoT Enterprise LTSC 2024",
   "service": "windows",
   "forwardPorts": [8006],
   "dockerComposeFile": "compose.yml"
