@@ -3,7 +3,7 @@ services:
     container_name: windows
     image: ghcr.io/dockur/windows
     environment:
-      VERSION: "https://dl.bobpony.com/windows/10/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
+      VERSION: "https://dl.bobpony.com/windows/11/X23-81951_26100.1742.240906-0331.ge_release_svc_refresh_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso"
       RAM_SIZE: "4G"
       DISK_SIZE: "27G"
       CPU_CORES: "2"
