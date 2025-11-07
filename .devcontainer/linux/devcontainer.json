@@ -1,5 +1,5 @@
 {
-  "name": "Devuan 6.0 Excalibur",
+  "name": "Debian 13 Trixie",
   "service": "qemu",
   "forwardPorts": [8006],
   "dockerComposeFile": "compose.yml"
