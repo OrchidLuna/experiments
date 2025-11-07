@@ -3,8 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://fastly.mirror.pkgbuild.com/iso/2025.11.01/archlinux-x86_64.iso"
-      DISK_SIZE: "30G"
+      BOOT: "https://mirror.ungleich.ch/mirror/devuan/devuan_excalibur/installer-iso/devuan_excalibur_6.0.0_amd64_netinstall.iso"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
     devices:
