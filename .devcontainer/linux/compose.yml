@@ -4,6 +4,7 @@ services:
     container_name: qemu
     environment:
       BOOT: "https://mirror.freedif.org/LinuxMint/iso/stable/22.2/linuxmint-22.2-xfce-64bit.iso"
+      DISK_SIZE: "27G"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
     devices:
