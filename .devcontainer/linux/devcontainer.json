@@ -1,5 +1,5 @@
 {
-  "name": "Debian 13 Trixie",
+  "name": "Linux Mint 22.2 Zara (XFCE)",
   "service": "qemu",
   "forwardPorts": [8006],
   "dockerComposeFile": "compose.yml"
