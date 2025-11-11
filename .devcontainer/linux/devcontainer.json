@@ -1,5 +1,5 @@
 {
-  "name": "Linux Mint 22.2 Zara (XFCE)",
+  "name": "Arch Linux 2025.11.01",
   "service": "qemu",
   "forwardPorts": [8006],
   "dockerComposeFile": "compose.yml"
