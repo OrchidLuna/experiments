@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://fastly.mirror.pkgbuild.com/iso/2025.11.01/archlinux-x86_64.iso"
+      BOOT: "https://fastly.mirror.pkgbuild.com/iso/2025.12.01/archlinux-x86_64.iso"
       DISK_SIZE: "27G"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
