@@ -1,5 +1,5 @@
 {
-  "name": "Arch Linux 2025.12.01",
+  "name": "Gentoo Linux",
   "service": "qemu",
   "forwardPorts": [8006],
   "dockerComposeFile": "compose.yml"
