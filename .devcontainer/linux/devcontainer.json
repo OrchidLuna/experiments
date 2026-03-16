@@ -1,5 +1,5 @@
 {
-  "name": "Arch Linux 2026.01.01",
+  "name": "Lubuntu 24.04 LTS",
   "service": "qemu",
   "forwardPorts": [8006],
   "dockerComposeFile": "compose.yml"
